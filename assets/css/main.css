@@ -1,0 +1,33 @@
+html, body{
+  background-image: url(https://www.spicytime.ca/wp-content/uploads/2015/12/Dal-Tadka.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.leftnav{
+  height:100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top:50px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: 20px; */
+  /* background-color: black; */
+  overflow-x: hidden; /* disable horizontal scroll*/
+}
+.leftnav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+.leftnav a:hover{
+  opacity: .5;
+  transition-duration: 1s;
+  transition-delay: .1s;
+}
+.item{
+  padding-bottom: 20px;
+}
