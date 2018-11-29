@@ -7,7 +7,7 @@ html, body{
 }
 .leftnav{
   height:100%;
-  width: 130px;
+  width: 600px;
   position: fixed;
   z-index: 1;
   top:50px;
@@ -25,19 +25,62 @@ html, body{
   font-size: 25px;
   color: white;
 }
-.leftnav a:hover{
+/* .leftnav a:hover{
   opacity: .5;
   transition-duration: 1s;
   transition-delay: .1s;
-}
-.item{
-  padding-bottom: 20px;
-}
+} */
 .item1{
   padding-bottom: 20px;
+  padding-left: 20px;
 }
-.item1:hover {
-  transform: scale(1.2);
+.item2{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.item1:hover{
+  transform: scale(1.1);
+}
+.item2:hover{
+  transform: scale(1.1);
+}
+.item3{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.item4{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.item4:hover{
+  transform: scale(1.1);
+}
+.item5{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.item5:hover{
+  transform: scale(1.1);
+}
+.item3:hover .dropright1{
+  visibility: visible;
+  /* transform: scale(1.2); */
+}
+.dropright1{
+  visibility: hidden;
+  color: purple;
+  font-style: italic;
+}
+.makkiroti{
+  visibility: visible;
+  font-size: 25px;
+  color: yellow;
+}
+.missiroti{
+  visibility: visible;
+  font-size: 25px;
+  color: white;
+  padding-left: 35px;
 }
 /* .dropright {
   position: relative;

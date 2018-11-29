@@ -55,13 +55,20 @@ html, body{
 .dropright{
   color: grey;
 }
+.dropright1{
+  visibility: hidden;
+}
+.dropright1:hover .palak{
+  visibility: visible;
+}
 .palak{
   visibility: visible;
   font-size: 25px;
-  color: black;
+  color: white;
 }
 .shahi{
   visibility: visible;
   font-size: 25px;
   color: black;
+  padding-left: 35px;
 }

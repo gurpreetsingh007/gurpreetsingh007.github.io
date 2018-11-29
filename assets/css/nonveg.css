@@ -7,7 +7,7 @@ html, body{
 }
 .leftnav{
   height:100%;
-  width: 130px;
+  width: 600px;
   position: fixed;
   z-index: 1;
   top:50px;
@@ -33,10 +33,28 @@ html, body{
 .item{
   padding-bottom: 20px;
 }
-.item:hover{
-  transform: rotate(20deg);
+.dropright1{
+  visibility: hidden;
+  color:black;
+}
+.item:hover .dropright1{
+  visibility: visible;
+
+  /* transform: rotate(20deg); */
 
 }
+.lambcurry{
+  visibility: visible;
+  font-size: 25px;
+  color: orange;
+  padding-left: 35px;
+}
+.butterchicken{
+  visibility: visible;
+  font-size: 25px;
+  color: grey;
+}
+
 /* .dropright {
   position: relative;
   display: inline-block;
