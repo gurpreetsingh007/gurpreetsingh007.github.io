@@ -34,8 +34,7 @@ html, body{
   padding-bottom: 20px;
 }
 .item:hover{
-  transition-delay: .1s;
-  transform: scale(1.2);
+  transform: rotate(20deg);
 
 }
 /* .dropright {
