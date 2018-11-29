@@ -1,0 +1,57 @@
+html, body{
+  background-image: url(../../assets/images/veg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+  margin:0;
+}
+.leftnav{
+  height:100%;
+  width: 500px;
+  position: fixed;
+  z-index: 1;
+  top:50px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: 20px; */
+  /* background-color: black; */
+  overflow-x: hidden; /* disable horizontal scroll*/
+}
+.leftnav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+/* .leftnav a:hover{
+  opacity: .5;
+  transition-duration: 1s;
+  transition-delay: .1s;
+} */
+.item{
+  padding-bottom: 20px;
+}
+.item1{
+  padding-bottom: 20px;
+}
+.item:hover{
+  transform: scale(1.2);
+}
+.item1:hover .dropright{
+  visibility: visible;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  transform: scale(1.2);
+}
+.item1 .dropright{
+  visibility: hidden;
+  padding-left:5px;
+  text-align: center;
+  border-radius: 6px;
+}
+.dropright{
+
+}

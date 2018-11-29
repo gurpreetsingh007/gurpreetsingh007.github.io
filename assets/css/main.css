@@ -1,7 +1,9 @@
 html, body{
-  background-image: url(https://www.spicytime.ca/wp-content/uploads/2015/12/Dal-Tadka.jpg);
+  background-image: url(../../assets/images/main.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
+  margin:0;
 }
 .leftnav{
   height:100%;
@@ -31,3 +33,15 @@ html, body{
 .item{
   padding-bottom: 20px;
 }
+/* .dropright {
+  position: relative;
+  display: inline-block;
+}
+.dropright-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+.dropright:hover .dropright-content{
+  display: block;
+} */

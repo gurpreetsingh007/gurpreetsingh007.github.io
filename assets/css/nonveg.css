@@ -1,0 +1,47 @@
+html, body{
+  background-image: url(../../assets/images/non-veg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin:0;
+}
+.leftnav{
+  height:100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top:50px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: 20px; */
+  /* background-color: black; */
+  overflow-x: hidden; /* disable horizontal scroll*/
+}
+.leftnav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+.leftnav a:hover{
+  opacity: .5;
+  transition-duration: 1s;
+  transition-delay: .1s;
+}
+.item{
+  padding-bottom: 20px;
+}
+/* .dropright {
+  position: relative;
+  display: inline-block;
+}
+.dropright-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+.dropright:hover .dropright-content{
+  display: block;
+} */

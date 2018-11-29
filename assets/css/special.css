@@ -1,0 +1,79 @@
+html, body{
+  background-image: url(../../assets/images/special.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin:0;
+}
+.leftnav{
+  height:100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top:50px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: 20px; */
+  /* background-color: black; */
+  overflow-x: hidden; /* disable horizontal scroll*/
+}
+.leftnav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+.leftnav a:hover{
+  opacity: .5;
+  transition-duration: 1s;
+  transition-delay: .1s;
+}
+.item1{
+  padding-bottom: 20px;
+}
+.item2{
+  padding-bottom: 20px;
+}
+.item3{
+  padding-bottom: 20px;
+}
+.item4{
+  padding-bottom: 20px;
+}
+.item5{
+  padding-bottom: 20px;
+}
+.item1:hover{
+    background-color: grey;
+}
+.item2:hover{
+    background-color: grey;
+}
+.item3:hover{
+    background-color: grey;
+}
+.item4:hover{
+    background-color: grey;
+}
+.item5:hover{
+    background-color: grey;
+}
+
+
+
+
+
+/* .dropright {
+  position: relative;
+  display: inline-block;
+}
+.dropright-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+}
+.dropright:hover .dropright-content{
+  display: block;
+} */
